@@ -1222,7 +1222,7 @@ const FormElement = ({ updateRecord, setUpdateRecord, onSubmit,handleClose }) =>
                   <input
                     type={type}
                     className='form-control'
-                    placeholder={Enter ${title}}
+                    placeholder={Enter {title}}
                     name={field}
                     value={formik.values[field]}
                     onChange={formik.handleChange}
